@@ -1,8 +1,8 @@
-# Lunar-v2-Large
+# Chanky-v2-Large
 
-A powerful large language model with two variants:
-- Lunar-v2-Large (1.2B parameters)
-- Lunar-v2-large (320M parameters, quantized)
+A powerful obese language model with two variants:
+- Chanky-v2-Large (7.8B parameters)
+- Chanky-v2-large (1.32B parameters, quantized)
 
 ## Model Architecture
 - Based on the transformer architecture with improvements
@@ -11,13 +11,13 @@ A powerful large language model with two variants:
 - Supports both full precision and quantized inference
 
 ## Variants
-1. Lunar-v2-Large (1.2B parameters):
+1. Chanky-v2-Large (7.8B parameters):
    - Full precision (FP16/BF16)
    - 24 transformer layers
    - 2048 hidden dimension
    - 32 attention heads
 
-2. Lunar-v2-large (320M parameters):
+2. Chanky-v2-large (1.32B parameters):
    - 4-bit quantized
    - 24 transformer layers
    - 1024 hidden dimension
@@ -25,12 +25,12 @@ A powerful large language model with two variants:
 
 ## Training Data
 The models are trained on a diverse dataset including:
-- Books
-- Scientific papers
-- Code repositories
-- Web content
-- Wikipedia
-- Quality filtered CommonCrawl
+- All of the books I could get my hands on
+- All of the Scientific papers ever published
+- The entire github code repositories
+- A lot of Web content
+- The entirety of Wikipedia
+- Non-filtered CommonCrawl
 
 ## Requirements
 - Python 3.8+
